@@ -10,7 +10,7 @@ on:
 
 jobs:
   ubuntu:
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     steps:
       - uses: actions/checkout@v3
       - uses: actions-rs/toolchain@v1
